@@ -136,13 +136,13 @@ LOGIN_REDIRECT_URL = "dashboard"
 
 LOGOUT_REDIRECT_URL = "dashboard"
 
-EMAIL_HOST = "smtp.mailgun.org"
-EMAIL_PORT = 587
-EMAIL_HOST_USER = "postmaster@sandbox5e52f8c35e3f49f7902fbfe6ed4448cc.mailgun.org " 
-EMAIL_HOST_PASSWORD =" 66a1222d306e12ea1b82c1f5e895ba6f-dbc22c93-31a83b47"
+#EMAIL_HOST = "smtp.mailgun.org"
+#EMAIL_PORT = 587
+#EMAIL_HOST_USER = " " 
+#EMAIL_HOST_PASSWORD =" "
 EMAIL_USE_TLS = True
-#EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
-#EMAIL_FILE_PATH = str(BASE_DIR.joinpath('sent_emails'))
+EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+EMAIL_FILE_PATH = str(BASE_DIR.joinpath('sent_emails'))
 
-SOCIAL_AUTH_GITHUB_KEY = "73a5eff0f9df48f4b0b5"
-SOCIAL_AUTH_GITHUB_SECRET = "99bdc84c3dcd65f149b4db9f371eb7aa6bbca166"
+SOCIAL_AUTH_GITHUB_KEY = " "
+SOCIAL_AUTH_GITHUB_SECRET = ""
