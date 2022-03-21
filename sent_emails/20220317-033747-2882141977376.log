@@ -1,0 +1,15 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: 
+From: webmaster@localhost
+To: sorelletchie@gmail.com
+Date: Thu, 17 Mar 2022 07:37:47 -0000
+Message-ID: <164750266716.21112.4893419127753996286@LAPTOP-TQMNANJ6>
+
+<!--users/templates/registration/password_reset_email.html-->
+
+Someone asked for password reset for email sorelletchie@gmail.com.
+Follow the link below:
+http://localhost:8000/accounts/reset/MQ/b2evez-b4838691e803c1bba926b18f01aa3d30/
+-------------------------------------------------------------------------------

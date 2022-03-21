@@ -1,0 +1,15 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: 
+From: webmaster@localhost
+To: tchesy06@gmail.com
+Date: Thu, 17 Mar 2022 07:38:59 -0000
+Message-ID: <164750273954.21112.14390522893731929407@LAPTOP-TQMNANJ6>
+
+<!--users/templates/registration/password_reset_email.html-->
+
+Someone asked for password reset for email tchesy06@gmail.com.
+Follow the link below:
+http://localhost:8000/accounts/reset/NA/b2evgz-39282c211a6cab03920117aa91b14d5e/
+-------------------------------------------------------------------------------
