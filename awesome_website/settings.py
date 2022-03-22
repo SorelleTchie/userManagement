@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--x%au14a2w#&#$2guf+g+1nwou6p25^m8($j5o#9u$jtg530ia'
+SECRET_KEY = ' '
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -140,9 +140,9 @@ LOGOUT_REDIRECT_URL = "dashboard"
 #EMAIL_PORT = 587
 #EMAIL_HOST_USER = " " 
 #EMAIL_HOST_PASSWORD =" "
-EMAIL_USE_TLS = True
+#EMAIL_USE_TLS = True
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 EMAIL_FILE_PATH = str(BASE_DIR.joinpath('sent_emails'))
 
 SOCIAL_AUTH_GITHUB_KEY = " "
-SOCIAL_AUTH_GITHUB_SECRET = ""
+SOCIAL_AUTH_GITHUB_SECRET = " "
